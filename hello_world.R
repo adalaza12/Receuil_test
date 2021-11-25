@@ -16,7 +16,7 @@ library(plumber)
 #* @param msg The message to echo
 #* @get /echo
 function(msg = "") {
-  list(msg = paste0("The message is: '", msg, "'"))
+  list(msg = paste0("The message is a new message: '", msg, "'"))
 }
 
 #* Plot a histogram
